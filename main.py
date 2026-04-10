@@ -1,9 +1,5 @@
-from langchain_core.prompts import ChatPromptTemplate
+import langchain
 
-template = ChatPromptTemplate.from_messages([
-    ("system","你是世界级的技术文档编写者"),
-    ("user","{input}")
-])
-
-if __name__ == "__main__":
-    print(template)
+if __name__ == '__main__':
+    print(langchain.__version__)
+    #远程仓库的修改
